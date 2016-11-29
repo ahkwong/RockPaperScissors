@@ -26,28 +26,7 @@ public class PlayerController : NetworkBehaviour
 	void Update()
 	{
 		if (!isLocalPlayer) return;
-		//if (Input.GetKeyDown (KeyCode.A))CmdRock();
-		//if (Input.GetKeyDown (KeyCode.S))CmdPaper();
-		//if (Input.GetKeyDown (KeyCode.D))CmdScissors();
 	}
-
-	/*[Command]
-	void CmdRock()
-	{
-		number = 1;
-	}
-
-	[Command]
-	void CmdPaper()
-	{
-		number = 2;
-	}
-
-	[Command]
-	void CmdScissors()
-	{
-		number = 3;
-	}*/
 
     [Command]
     void CmdRockClicked()
